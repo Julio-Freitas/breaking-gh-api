@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
+import {BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
+import Home from './component/Home';
+import Header from './component/Header';
+import Mortos from './component/Mortos';
+import Vivos from './component/Vivos';
+import Episodios from './component/Episodios';
+import Pesquisa from './component/Pesquisa';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component{
+
+  render(){
+    return (
+      <div className="App">
+          <BrowserRouter >
+          <Header/>
+            <Switch>
+                <Route name='julio' path='/' exact component={Home} />
+                <Route path='/vivos' exact component={Vivos} />
+                <Route path='/mortos' exact component={Mortos} />
+                <Route path='/episodios' exact component={Episodios} />
+                <Route path='/pesquisa' exact component={Pesquisa} />
+            </Switch>
+          </BrowserRouter>
+      </div>
+    );
+  }
 }
 
 export default App;

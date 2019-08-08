@@ -1,0 +1,27 @@
+.logo-header{
+    width: 130px;
+}
+.logo-header img{
+    width: 100%;
+}
+.navbar-toggler{
+    background-color: #fff;
+}
+.search-custom{
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    padding: 5px;
+    outline: none;
+    color: #fff;
+}
+.search-group{
+    position: relative;
+}
+.search-group .icon-search {
+    position: absolute;
+    bottom: 0;
+    color: #757575;
+    right: 7px;
+}
