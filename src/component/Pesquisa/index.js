@@ -19,6 +19,8 @@ const Pesquisa = (props) => {
         const { name, img, birthday, occupation, status } = person;
         const masterHeader = {
             width: '320px',
+            maxWidth:' 400px',
+            minWidth: '300px',
             position: 'relative',
             minHeight: '100%',
             backgroundImage: `url('${img}')`,
