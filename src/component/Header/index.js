@@ -62,7 +62,7 @@ const Header = () => {
                         <input onChange={search()} value={pesquisa} className='search-custom' type='search' placeholder='Pesquise por personagens nome e sobrenome' />
                         <NavLink tag={Link} to='/pesquisa' className='icon-search' onClick={buscar(pesquisa)}><i className="fa fa-search"></i></NavLink>
                     </div>
-                </Collapse>
+                </Collapse> 
             </Navbar>
 
             <div className='container my-4'>
