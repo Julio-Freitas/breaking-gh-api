@@ -18,7 +18,7 @@ const Pesquisa = (props) => {
     const exiberesult = (person) => {
         const { name, img, birthday, occupation, status } = person;
         const masterHeader = {
-            width: '400px',
+            width: '320px',
             position: 'relative',
             minHeight: '100%',
             backgroundImage: `url('${img}')`,
@@ -29,9 +29,8 @@ const Pesquisa = (props) => {
 
         return (
             <div className='personItem' key={person.char_id} >
-
                 <h1>Você pesquisou por "{name}"</h1>
-                <div style={masterHeader}>
+                <div  style={masterHeader}>
                     <div className='text-right'>{status === 'Alive' && <Badge color='success' className='py-2 px-5 rounded-0' >Vivo</Badge>}</div>
                     <div className='text-right'>{status !== 'Alive' && <Badge color='warning' className='py-2 px-5 rounded-0 ' >Morto</Badge>}</div>
                     <div className='detalhes'>
