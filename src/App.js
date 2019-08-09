@@ -17,7 +17,11 @@ class App extends Component{
           <BrowserRouter >
           <Header/>
             <Switch>
+<<<<<<< HEAD
                 <Route path='/' exact component={Home} />
+=======
+                <Route path='' exact component={Home} />
+>>>>>>> 7e97e267362d72b8c9c190cc94b7e1fb2fe7701a
                 <Route path='/vivos' exact component={Vivos} />
                 <Route path='/mortos' exact component={Mortos} />
                 <Route path='/episodios' exact component={Episodios} />
