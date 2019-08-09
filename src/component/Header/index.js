@@ -47,7 +47,7 @@ const Header = () => {
     return (
         <div>
             <Navbar className='container' light expand='md'>
-                <NavbarBrand tag={Link} to='/' className='logo-header'><img src={logo} /></NavbarBrand>
+                <NavbarBrand tag={Link} to='' className='logo-header'><img src={logo} /></NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={open} navbar >
                     <Nav className='ml-5 ml-sm-0 text-sm-center navbar-nav' navbar>
