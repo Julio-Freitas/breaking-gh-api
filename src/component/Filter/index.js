@@ -11,7 +11,7 @@ const {title} = props;
                 <Link to='/vivos' color='success' className='py-2 px-4 rounded-0 badge-success' >Vivo</Link>
                 <Link to='/mortos'  color='warning' className='py-2 px-4 mx-1 rounded-0 badge-warning' >Morto</Link>
                 <Link to=''  color='white' className='py-2 px-4 rounded-0 badge-light' >Todos</Link>
-            </div>
+             </div>
         </div>
     )
 }
