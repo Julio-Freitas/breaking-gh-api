@@ -23,6 +23,7 @@ class App extends Component{
                 <Route path='/episodios' exact component={Episodios} />
                 <Route path='/pesquisa' exact component={Pesquisa} />
             </Switch>
+             <Home />
           </BrowserRouter>
       </div>
     );
