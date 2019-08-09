@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/breaking-gh-api/static/css/main.571222d6.chunk.css",
+    "main.js": "/breaking-gh-api/static/js/main.883a9f59.chunk.js",
+    "main.js.map": "/breaking-gh-api/static/js/main.883a9f59.chunk.js.map",
+    "runtime~main.js": "/breaking-gh-api/static/js/runtime~main.750302ac.js",
+    "runtime~main.js.map": "/breaking-gh-api/static/js/runtime~main.750302ac.js.map",
+    "static/css/2.5d45f07d.chunk.css": "/breaking-gh-api/static/css/2.5d45f07d.chunk.css",
+    "static/js/2.e01b2636.chunk.js": "/breaking-gh-api/static/js/2.e01b2636.chunk.js",
+    "static/js/2.e01b2636.chunk.js.map": "/breaking-gh-api/static/js/2.e01b2636.chunk.js.map",
+    "index.html": "/breaking-gh-api/index.html",
+    "precache-manifest.a2e79667a02e9dce20b006af63f9a070.js": "/breaking-gh-api/precache-manifest.a2e79667a02e9dce20b006af63f9a070.js",
+    "service-worker.js": "/breaking-gh-api/service-worker.js",
+    "static/css/2.5d45f07d.chunk.css.map": "/breaking-gh-api/static/css/2.5d45f07d.chunk.css.map",
+    "static/css/main.571222d6.chunk.css.map": "/breaking-gh-api/static/css/main.571222d6.chunk.css.map",
+    "static/media/breaking-bad-logo.png": "/breaking-gh-api/static/media/breaking-bad-logo.82875518.png"
+  }
+}
