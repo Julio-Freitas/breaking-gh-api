@@ -18,10 +18,10 @@ class App extends Component{
           <Header/>
             <Switch>
                 <Route path='' exact component={Home} />
-                <Route path='/vivos' exact component={Vivos} />
-                <Route path='/mortos' exact component={Mortos} />
-                <Route path='/episodios' exact component={Episodios} />
-                <Route path='/pesquisa' exact component={Pesquisa} />
+                <Route path='vivos' exact component={Vivos} />
+                <Route path='mortos' exact component={Mortos} />
+                <Route path='episodios' exact component={Episodios} />
+                <Route path='pesquisa' exact component={Pesquisa} />
             </Switch>
           </BrowserRouter>
       </div>
