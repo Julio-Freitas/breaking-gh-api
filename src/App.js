@@ -17,7 +17,7 @@ class App extends Component{
           <BrowserRouter >
           <Header/>
             <Switch>
-                <Route path='/breakingbadapi/' exact component={Home} />
+                <Route path='/breakingbadapi' exact component={Home} />
                 <Route path='/vivos' exact component={Vivos} />
                 <Route path='/mortos' exact component={Mortos} />
                 <Route path='/episodios' exact component={Episodios} />
