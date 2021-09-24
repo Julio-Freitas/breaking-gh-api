@@ -1,6 +1,6 @@
 {
   "name": "yellowtest",
-  "homepage: "breaking-gh-api/",
+  "homepage": "breaking-gh-api/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
